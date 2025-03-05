@@ -1,0 +1,656 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap link -->
+
+    <!-- font Awesome Cmd -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- font Awesome Cmd -->
+
+
+
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Google font -->
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg"id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="Index.html"id="logo"><span>T</span>ravel</a>
+          <!-- <img src="logo .png" width="100px" alt=""> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link activity" href="Index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Package">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar End-->
+
+
+
+
+
+    <!-- Home section start -->
+     <div class="home">
+        <div class="content">
+            <h5>Welcome to the world</h5>
+            <h1>visit <span class="changecontent"></span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, qui?</p>
+            <a href="#book">Book Place</a>
+        </div>
+     </div>
+    <!-- Home section End -->
+
+
+
+    <!-- section book start  -->
+     <section class="book"id="book">
+        <div class="container">
+
+            <div class="main-text">
+                <h1><span>B</span>ook</h1>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                       <img src="/Images/2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-3 py-md-0">
+                    <form action="#">
+
+                        <input type="text" class="form-control" placeholder="where to"required><br>
+                        <input type="text" class="form-control" placeholder="How Many"required><br>
+                        <input type="date" class="form-control" placeholder="Arrivals"required><br>
+                        <input type="date" class="form-control" placeholder="Leaving"required><br>
+                        <textarea class="form-control" rows="5" name="text" placeholder="Enter your name & details"></textarea>
+                        <input type="submit" value="Book now " class="submit" required>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- section book End -->
+
+
+
+
+
+
+
+
+
+
+    <!-- section Package start  -->
+     <section class="Package" id="Package">
+        <div class="container">
+            
+            <div class="main-text">
+                <h1><span>P</span>ackages</h1>
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="/Images/3.jpg" alt="">
+                        <div class="card-body">
+                            <h3>United kingdom</h3>
+                            <p>The United Kingdom, made up of England, Scotland, Wales and Northern Ireland, is an island nation in northwestern Europe. England – birthplace of Shakespeare and The Beatles – is home to the capital, London, a globally influential centre of finance and culture. England is also site of Neolithic Stonehenge, Bath’s Roman spa and centuries-old universities at Oxford and Cambridge</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star chacked"></i>
+                                <i class="fa-solid fa-star chacked"></i>
+                                <i class="fa-solid fa-star chacked"></i>
+                                <i class="fa-solid fa-star chacked"></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6>Price:<strike>₹263,317</strike></h6>
+                            <a href="#book">Book now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="/Images/4.jpg" alt="">
+                        <div class="card-body">
+                            <h3>France</h3>
+                            <p>France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower. The country is also renowned for its wines and sophisticated cuisine. Lascaux’s ancient cave drawings, Lyon’s Roman theater and the vast Palace of Versailles attest to its rich history. </p>
+                            <div class="star">
+                                <i class="fa-solid fa-star chacked"></i>
+                                <i class="fa-solid fa-star chacked"></i>
+                                <i class="fa-solid fa-star chacked"></i>
+                                <i class="fa-solid fa-star chacked"></i>
+                                <i class="fa-solid fa-star chacked"></i>
+                            </div>
+                            <h6>Price:<strike>₹272,990</strike></h6>
+                            <a href="#book">Book now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="/Images/5.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Dubai </h3>
+                            <p>Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis, The Palm, a resort with water and marine-animal parks.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star chacked"></i>
+                                <i class="fa-solid fa-star chacked"></i>
+                                <i class="fa-solid fa-star chacked"></i>
+                                <i class="fa-solid fa-star chacked"></i>
+                                <i class="fa-solid fa-star chacked"></i>
+                            </div>
+                            <h6>Price:<strike>₹788,016+GST</strike></h6>
+                            <a href="#book">Book now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="/Images/6.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Italy</h3>
+                                <p>Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. Other major cities include Florence, with Renaissance masterpieces such as Michelangelo’s "David" and Brunelleschi's Duomo; Venice, the city of canals; and Milan, Italy’s fashion capital.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price:<strike>₹3,75,000</strike></h6>
+                                <a href="#book">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="/Images/7.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Kashmir,India</h3>
+                                <p>The capital city of Srinagar is located 1585 meters above sea level. The city is famous for its gardens, lakes and houseboats. It is also known for traditional Kashmiri handicrafts and dried fruits. The city is located on both the sides of the Jhelum River, which is called Vyath in Kashmir.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                </div>
+                                <h6>Price:<strike>₹66,000</strike></h6>
+                                <a href="#book">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="/Images/8.jpg" alt="">
+                            <div class="card-body">
+                                <h3>United States </h3>
+                                <p>The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor, within New York City. The copper-clad statue, a gift to the United States from the people of France, was designed by French sculptor Frédéric Auguste Bartholdi and its metal framework was built by Gustave Eiffe</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price:<strike>₹500</strike></h6>
+                                <a href="#book">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                
+
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="/Images/9.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Seville </h3>
+                                <p>Seville is world-renowned for its beautiful architecture, monuments, flamenco, and tapas scene. This lovely Andalusian city oozes a rich history through its quaint neighborhoods, historic churches, and palaces. You will be blown away by the incredible sights Seville has to offer.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price:<strike>₹500</strike></h6>
+                                <a href="#book">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="/Images/10.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Singapore</h3>
+                                <p>Service options: Picnic tables available · Dogs allowed
+                                    The Gardens by the Bay is a nature park spanning 105 hectares in the Central Region of Singapore, adjacent to the Marina Reservoir.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price:<strike>₹500</strike></h6>
+                                <a href="#book">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                
+
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="/Images/11.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Turkey </h3>
+                                <p>Istanbul is a major city in Turkey that straddles Europe and Asia across the Bosphorus Strait. Its Old City reflects cultural influences of the many empires that once ruled here. In the Sultanahmet district, the open-air, Roman-era Hippodrome was for centuries the site of chariot races, and Egyptian obelisks also remain. The iconic Byzantine Hagia Sophia features a soaring 6th-century dome and rare Christian mosaics</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price:<strike>₹500</strike></h6>
+                                <a href="#book">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="/Images/12.jpg" alt="">
+                            <div class="card-body">
+                                <h3>China</h3>
+                                <p>China, officially the People's Republic of China, is a country in East Asia. With a population exceeding 1.4 billion, it is the world's second-most populous country after India. China spans the equivalent of five time zones and borders fourteen countries by land.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price:<strike>₹500</strike></h6>
+                                <a href="#book">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                
+
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="/Images/13.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Germany </h3>
+                                <p>Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII. Munich is known for its Oktoberfest and beer halls, including the 16th-century Hofbräuhaus. Frankfurt, with its skyscrapers, houses the European Central Bank. </p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price:<strike>₹500</strike></h6>
+                                <a href="#book">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="/Images/15.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Monaco City </h3>
+                                <p>Monaco City is the southcentral ward in the Principality of Monaco. Located on a headland that extends into the Mediterranean Sea, it is nicknamed The Rock. The name "Monaco City" is misleading: it is not itself a city, but a historical and statistical district</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star chacked"></i>
+                                    <i class="fa-solid fa-star "></i>
+                                </div>
+                                <h6>Price:<strike>₹500</strike></h6>
+                                <a href="#book">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+     </section>
+    <!-- section Package End-->
+
+
+
+
+
+    <!-- Section services start -->
+     <section class="services" id="services">
+        <div class="container">
+            
+            
+            <div class="main-txt">
+                <h1><span>S</span>ervices</h1>
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+
+
+                    <div class="card">
+                        <i class="fas fa-hotel"></i>
+
+                        <div class="card-body">
+                            <h3>Affordable hotel</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, sint.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+
+                    <div class="card">
+                        <i class="fas fa-utensils"></i>
+
+                        <div class="card-body">
+                            <h3>Food & Drinks</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, sint.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 py-3 py-md-0">
+
+
+                    <div class="card">
+                        <i class="fas fa-bullhorn"></i>
+
+                        <div class="card-body">
+                            <h3>Safty Guide</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, sint.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+
+                    <div class="card">
+                        <i class="fas fa-globe-asia"></i>
+
+                        <div class="card-body">
+                            <h3>Around the world</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, sint.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+
+                    <div class="card">
+                        <i class="fas fa-plane"></i>
+
+                        <div class="card-body">
+                            <h3>Fastest Travel</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, sint.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 py-3 py-md-0">
+
+
+                    <div class="card">
+                        <i class="fas fa-hiking"></i>
+
+                        <div class="card-body">
+                            <h3>Adventures</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, sint.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     </section>
+     <!-- section services End -->
+
+     
+
+<!-- Section Gallery Start -->
+<section class="gallery" id="gallery">
+    <div class="container">
+        <div class="main-text">
+            <h1><span>G</span>allery</h1>
+        </div>
+        <div class="row">
+            <!-- Image 1 -->
+            <<div class="col-md-4 py-3 py-md-0">
+                 <div class="card">
+                    <a href="UK.html">
+                        <img src="/Images/Gallery/1.jpg" height="500px" width="500px" alt="Gallery Image 1">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Image 2 -->
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <a href="/Images/Gallery/2.jpg" class="popup-img">
+                        <img src="/Images/Gallery/2.jpg" height="500px" width="500px" alt="Gallery Image 2">
+                    </a>
+                </div>
+            </div>
+            <!-- Image 3 -->
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <a href="/Images/Gallery/3.jpg" class="popup-img">
+                        <img src="/Images/Gallery/3.jpg" height="500px" width="500px" alt="Gallery Image 3">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Image 4 -->
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <a href="/Images/Gallery/4.jpg" class="popup-img">
+                        <img src="/Images/Gallery/4.jpg" height="500px" width="500px" alt="Gallery Image 4">
+                    </a>
+                </div>
+            </div>
+            <!-- Image 5 -->
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <a href="/Images/Gallery/5.jpg" class="popup-img">
+                        <img src="/Images/Gallery/5.jpg" height="500px" width="500px" alt="Gallery Image 5">
+                    </a>
+                </div>
+            </div>
+            <!-- Image 6 -->
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <a href="/Images/Gallery/6.jpg" class="popup-img">
+                        <img src="/Images/Gallery/6.jpg" height="500px" width="500px" alt="Gallery Image 6">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Image 7 -->
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <a href="/Images/Gallery/7.jpg" class="popup-img">
+                        <img src="/Images/Gallery/7.jpg" height="500px" width="500px" alt="Gallery Image 7">
+                    </a>
+                </div>
+            </div>
+            <!-- Image 8 -->
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <a href="/Images/Gallery/8.jpg" class="popup-img">
+                        <img src="/Images/Gallery/8.jpg" height="500px" width="500px" alt="Gallery Image 8">
+                    </a>
+                </div>
+            </div>
+            <!-- Image 9 -->
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <a href="/Images/Gallery/9.jpg" class="popup-img">
+                        <img src="/Images/Gallery/9.jpg" height="500px" width="500px" alt="Gallery Image 9">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Image 10 -->
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <a href="/Images/Gallery/10.jpg" class="popup-img">
+                        <img src="/Images/Gallery/10.jpg" height="500px" width="500px" alt="Gallery Image 10">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section Gallery End -->
+
+
+
+<style>
+/* Styles for the outline-based popup */
+.popup-img {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    outline: none;
+}
+
+.popup-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, outline-color 0.3s ease;
+}
+
+.popup-img:hover img {
+    transform: scale(1.05);
+    outline: 5px solid rgba(0, 123, 255, 0.5);
+}
+
+.popup-img:focus img {
+    outline: 5px solid rgba(0, 123, 255, 0.8);
+    transform: scale(1.05);
+}
+
+/* Optional: Center the gallery and set max width for better presentation */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.col-md-4 {
+    flex: 1 1 calc(33.333% - 30px);
+    box-sizing: border-box;
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+</style>
+            
+     <!-- Section Gallery End-->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
